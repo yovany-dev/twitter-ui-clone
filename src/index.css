@@ -10,4 +10,12 @@
   .t-text-m {
     @apply text-[15px];
   }
+
+  .t-icon {
+    @apply w-5 h-5 fill-dark-gray;
+  }
+
+  .t-tweet-footer {
+    @apply flex gap-1;
+  }
 }
