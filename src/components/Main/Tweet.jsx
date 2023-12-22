@@ -2,7 +2,7 @@ import React from 'react';
 
 function Tweet() {
   return (
-    <article className='py-2 px-4 flex gap-2 t-text-m text-primary-white border-b border-very-dark-gray'>
+    <article className='py-3 px-4 flex gap-2 t-text-m text-primary-white border-b border-very-dark-gray'>
       <section className='w-10 h-10 t-rounded overflow-hidden'>
         <img className='w-full h-full' src="https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_x96.jpg" alt="avatar user" />
       </section>
@@ -25,8 +25,16 @@ function Tweet() {
             <svg viewBox="0 0 24 24" className='w-5 h-5 fill-dark-gray'><g><path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></g></svg>
           </section>
         </header>
-        <section className=''>Content</section>
-        <footer className=''>Options</footer>
+        <section className='mt-0.5 flex flex-col gap-3'>
+          <p className='leading-5 font-normal'>¡ADOBE NO comprará FIGMA finalmente! La compra estaba valorada en 20 mil millones de $. <br /><br /> Figma era uno de los mayores competidores de Adobe. Y tanto UK como la EU no veían clara la compra. <br /><br /> Uno de los noticiones del mundo de UX y... <br />
+            <a href="/" class="text-blue-500 hover:text-blue-700">Show more</a>
+          </p>
+          <div className='rounded-2xl overflow-hidden relative border border-very-dark-gray'>
+            <img src="https://pbs.twimg.com/media/GBoiszDXQAAbi0F?format=jpg&amp;name=small" alt="Adobe, como un Pacman, comiendose el logo de Figma."></img>
+            <div className='h-5 px-1 rounded absolute left-3 bottom-3 font-bold text-[13px] bg-[#0000004d]'>ALT</div>
+          </div>
+        </section>
+        <footer className='mt-3'>Options</footer>
       </section>
     </article>
   )
