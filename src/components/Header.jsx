@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="lg:hidden flex flex-col gap-5 border-b border-very-dark-gray">
+    <header className="sm:hidden flex flex-col gap-5 border-b border-very-dark-gray">
       <section className="pt-2 px-4 flex justify-between items-center">
         <img className="w-8 t-rounded" src="https://pbs.twimg.com/profile_images/1736916533920604160/YuNnhwJ1_bigger.jpg" alt="avatar user" />
         <img className="h-9" src="https://abs.twimg.com/responsive-web/client-web/icon-default.522d363a.png" alt="logo x" />
