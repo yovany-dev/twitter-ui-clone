@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply text-[15px];
+  }
+}
+
 @layer components {
   .t-rounded {
     @apply rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-full;
@@ -13,6 +19,10 @@
 
   .t-icon {
     @apply w-5 h-5 fill-dark-gray;
+  }
+
+  .t-icon-white {
+    @apply w-7 h-7 fill-primary-white;
   }
 
   .t-tweet-footer {
