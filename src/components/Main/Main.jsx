@@ -1,10 +1,13 @@
-import { Tweet } from "./Tweet";
+import { Content } from './Content';
+import { Aside } from './Aside';
 
 const Main = () => {
   return (
-    <main className="max-w-[600px] sm:mx-auto sm:border-x sm:border-very-dark-gray">
-      <Tweet />
-      <Tweet />
+    <main>
+      <div>
+        <Content />
+        <Aside />
+      </div>
     </main>
   )
 }

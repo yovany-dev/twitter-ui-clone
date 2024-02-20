@@ -1,15 +1,12 @@
-import { Header } from "./components/Header";
-import { Nav } from "./components/Nav";
+import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 
 function App() {
   return (
-    <>
-    <Header />
-    <Nav />
-    <Main />
-    <aside></aside>
-    </>
+    <div className="content">
+      <Header />
+      <Main />
+    </div>
   );
 }
 

@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply text-[15px];
+  :root {
+    color-scheme: light dark;
+  }
+
+  /* html {
+    font-size: 15px;
+  } */
+
+  body {
+    background-color: rgb(0, 0, 0);
   }
 }
 
@@ -15,17 +23,5 @@
 
   .t-text-m {
     @apply text-[15px];
-  }
-
-  .t-icon {
-    @apply w-5 h-5 fill-dark-gray;
-  }
-
-  .t-icon-white {
-    @apply w-7 h-7 fill-primary-white;
-  }
-
-  .t-tweet-footer {
-    @apply flex gap-1;
   }
 }
