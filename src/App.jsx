@@ -5,13 +5,15 @@ import { useState } from "react";
 function App() {
   const [scroll, setScroll] = useState(false);
 
+  let lastScroll = window.scrollY;
   window.onscroll = function (){
-    // document.body.scrollTop > 200 || document.documentElement.scrollTop > 200
-    if (window.scrollY > 200) {
+    let currentScroll = window.scrollY;
+    if (currentScroll > lastScroll) {
       setScroll(true);
     } else {
       setScroll(false);
     }
+    lastScroll = currentScroll <= 0 ? 0 : currentScroll;
   }
 
   return (
