@@ -4,15 +4,15 @@ import { Nav } from './Nav';
 import { Post } from './Post';
 import { Profile } from './Profile';
 
-const Header = ({ opacity }) => {
+const Header = ({ scroll }) => {
   let className = 'w-full h-[52.5px] fixed bottom-0 z-10 border-t border-very-dark-gray bg-black transition-opacity duration-500';
-  if (opacity) {
+  if (scroll) {
     className += ' opacity-40'
   }
 
   return (
     <header>
-      <Head />
+      <Head scroll={scroll} />
       <section className={className}>
         <div className='h-full'>
           <nav className='h-full'>

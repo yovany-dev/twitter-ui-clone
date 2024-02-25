@@ -3,7 +3,7 @@ import { Aside } from './Aside';
 
 const Main = () => {
   return (
-    <main>
+    <main className='mt-[105px]'>
       <div>
         <Content />
         <Aside />

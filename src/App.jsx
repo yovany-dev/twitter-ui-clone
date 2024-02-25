@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="content">
-      <Header opacity={scroll} />
+      <Header scroll={scroll} />
       <Main />
     </div>
   );

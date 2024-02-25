@@ -12,7 +12,8 @@ module.exports = {
         'primary-white': 'rgb(231, 233, 234)',
         'twitter': 'rgb(29, 155, 240)',
         'dark-gray': 'rgb(113, 118, 123)',
-        'very-dark-gray': 'rgb(47, 51, 54)'
+        'very-dark-gray': 'rgb(47, 51, 54)',
+        'black-alpha': 'rgba(0,0,0, 0.7)'
       }
     },
     screens: {
