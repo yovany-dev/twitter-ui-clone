@@ -26,6 +26,9 @@ module.exports = {
       '1265': '1265px',
       '1500': '1500px',
     },
+    boxShadow: {
+      'btn-post': 'rgba(217, 217, 217, 0.2) 0px 0px 5px, rgba(217, 217, 217, 0.25) 0px 1px 4px 1px',
+    },
   },
   plugins: [],
 }
