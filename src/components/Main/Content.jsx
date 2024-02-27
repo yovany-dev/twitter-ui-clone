@@ -17,7 +17,7 @@ const Content = () => {
 
   return (
     <div>
-      {data && data.map(item => <Tweet profile={item.profile} content={item.content} data={item.data} date={item.date} />)}
+      {data && data.map((item, index) => <Tweet key={index} profile={item.profile} content={item.content} data={item.data} date={item.date} />)}
     </div>
   )
 }
