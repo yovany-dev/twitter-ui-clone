@@ -21,6 +21,8 @@ import { ReactComponent as Media } from '../svg/media.svg';
 import { ReactComponent as Gif } from '../svg/gif.svg';
 import { ReactComponent as Emoji } from '../svg/emoji.svg';
 import { ReactComponent as Location } from '../svg/location.svg';
+import { ReactComponent as Poll } from '../svg/poll.svg';
+import { ReactComponent as Schedule } from '../svg/schedule.svg';
 
 const svg = {
   'X': styles => <X style={{...styles}} />,
@@ -46,6 +48,8 @@ const svg = {
   'Gif': styles => <Gif style={{...styles}} />,
   'Emoji': styles => <Emoji style={{...styles}} />,
   'Location': styles => <Location style={{...styles}} />,
+  'Poll': styles => <Poll style={{...styles}} />,
+  'Schedule': styles => <Schedule style={{...styles}} />,
 }
 
 const SVG = ({ name, w='26.25px', h='26.25px', color='#E7E9EA' }) => {
