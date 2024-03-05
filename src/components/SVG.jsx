@@ -14,6 +14,9 @@ import { ReactComponent as Like } from '../svg/like.svg';
 import { ReactComponent as Retweet } from '../svg/retweet.svg';
 import { ReactComponent as Views } from '../svg/views.svg';
 import { ReactComponent as Share2 } from '../svg/share2.svg';
+import { ReactComponent as List } from '../svg/list.svg';
+import { ReactComponent as Profile } from '../svg/profile.svg';
+import { ReactComponent as More } from '../svg/more.svg';
 
 const svg = {
   'X': styles => <X style={{...styles}} />,
@@ -32,6 +35,9 @@ const svg = {
   'Retweet': styles => <Retweet style={{...styles}} />,
   'Views': styles => <Views style={{...styles}} />,
   'Share2': styles => <Share2 style={{...styles}} />,
+  'List': styles => <List style={{...styles}} />,
+  'Profile': styles => <Profile style={{...styles}} />,
+  'More': styles => <More style={{...styles}} />,
 }
 
 const SVG = ({ name, w='26.25px', h='26.25px', color='#E7E9EA' }) => {
