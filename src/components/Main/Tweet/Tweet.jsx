@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 
 function Tweet({ profile, content, data, date }) {
   return (
-    <article className='max-w-[600px] py-3 px-4 flex gap-2 t-text-m border-b border-very-dark-gray'>
+    <article className='max-w-[600px] py-3 px-4 flex gap-2 t-text-m border-b 500:border-l 500:border-r border-very-dark-gray'>
       <section className='w-10 h-10 t-rounded overflow-hidden'>
         <Avatar
           url={profile.avatar.url}
