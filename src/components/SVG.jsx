@@ -17,6 +17,10 @@ import { ReactComponent as Share2 } from '../svg/share2.svg';
 import { ReactComponent as List } from '../svg/list.svg';
 import { ReactComponent as Profile } from '../svg/profile.svg';
 import { ReactComponent as More } from '../svg/more.svg';
+import { ReactComponent as Media } from '../svg/media.svg';
+import { ReactComponent as Gif } from '../svg/gif.svg';
+import { ReactComponent as Emoji } from '../svg/emoji.svg';
+import { ReactComponent as Location } from '../svg/location.svg';
 
 const svg = {
   'X': styles => <X style={{...styles}} />,
@@ -38,6 +42,10 @@ const svg = {
   'List': styles => <List style={{...styles}} />,
   'Profile': styles => <Profile style={{...styles}} />,
   'More': styles => <More style={{...styles}} />,
+  'Media': styles => <Media style={{...styles}} />,
+  'Gif': styles => <Gif style={{...styles}} />,
+  'Emoji': styles => <Emoji style={{...styles}} />,
+  'Location': styles => <Location style={{...styles}} />,
 }
 
 const SVG = ({ name, w='26.25px', h='26.25px', color='#E7E9EA' }) => {
