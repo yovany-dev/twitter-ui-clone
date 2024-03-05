@@ -1,11 +1,10 @@
 import { SVG } from "../SVG";
 
-const svg = ['Home', 'Explore', 'Notifications', 'Messages'];
-const Li = () => {
+const Li = ({ svgs }) => {
   return (
     <>
-      {svg.map((item, index) => (
-        <li key={index}>
+      {svgs.map((item, index) => (
+        <li key={index} className="500:h-[26.25px] 500:my-3">
           <SVG name={item} />
           <p className="font-bold hidden">{item}</p>
         </li>

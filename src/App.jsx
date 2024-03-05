@@ -8,7 +8,7 @@ function App() {
   let lastScroll = window.scrollY;
   window.onscroll = function (){
     let currentScroll = window.scrollY;
-    if (currentScroll > lastScroll) {
+    if (currentScroll > lastScroll && window.screen.width < 500) {
       setScroll(true);
     } else {
       setScroll(false);
@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className="content">
+    <div className="content 500:flex">
       <Header scroll={scroll} />
       <Main />
     </div>

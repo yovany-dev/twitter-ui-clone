@@ -1,7 +1,7 @@
 import { SVG } from "../SVG";
 
 const Head = ({ scroll }) => {
-  let className = 'w-full flex flex-col gap-5 fixed top-0 left-0 z-20 border-b border-very-dark-gray bg-black-alpha backdrop-blur-md transition-transform duration-500';
+  let className = '500:hidden w-full flex flex-col gap-5 fixed top-0 left-0 z-20 border-b border-very-dark-gray bg-black-alpha backdrop-blur-md transition-transform duration-500';
   if (scroll) {
     className += ' -translate-y-[105px]';
   }
