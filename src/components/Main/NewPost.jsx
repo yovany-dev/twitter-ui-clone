@@ -10,7 +10,7 @@ const NewPost = () => {
   }
 
   return (
-    <section className="hidden p-4 500:flex gap-2 border-l border-b border-r border-very-dark-gray">
+    <section className="hidden max-w-[600px] p-4 500:flex gap-2 border-l border-b border-r border-very-dark-gray">
       <img className="w-10 h-10 t-rounded" src="https://pbs.twimg.com/profile_images/1736916533920604160/YuNnhwJ1_bigger.jpg" alt="Yovany Morales" />
       <div className="grow pt-1 flex items-end justify-between">
         <div className="flex flex-col gap-7">
