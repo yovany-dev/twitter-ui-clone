@@ -1,23 +1,8 @@
 import { Li } from './Li';
-import { useState, useEffect } from 'react';
+import { useResize } from '../../hooks/useResize/useResize';
 
 const Nav = () => {
-  const [resize, setResize] = useState(false);
-
-  useEffect(() => {
-    if (window.screen.width >= 500) {
-      setResize(true);
-    }
-  }, []);
-
-  window.onresize = function (){
-    if (window.screen.width >= 500) {
-      setResize(true);
-    } else {
-      setResize(false);
-    }
-
-  }
+  const resize = useResize(500);
 
   const svgs = ['Home', 'Explore', 'Notifications', 'Messages'];
   if (resize) {

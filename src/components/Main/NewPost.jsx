@@ -1,7 +1,13 @@
 import { SVG } from "../SVG";
+import { useResize } from "../../hooks/useResize/useResize";
 
 const NewPost = () => {
-  const svgs = ['Media', 'Gif', 'Emoji', 'Location'];
+  const resize = useResize(688);
+
+  let svgs = ['Media', 'Gif', 'Emoji', 'Location'];
+  if (resize) {
+    svgs = ['Media', 'Gif', 'Poll', 'Emoji', 'Schedule', 'Location'];
+  }
 
   return (
     <section className="hidden p-4 500:flex gap-2 border-l border-b border-r border-very-dark-gray">
