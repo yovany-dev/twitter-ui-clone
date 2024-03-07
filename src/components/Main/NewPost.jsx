@@ -1,4 +1,5 @@
 import { SVG } from "../SVG";
+import { Button } from "../Button/Button";
 import { useResize } from "../../hooks/useResize/useResize";
 
 const NewPost = () => {
@@ -23,7 +24,7 @@ const NewPost = () => {
             }
           </div>
         </div>
-        <button className="h-9 px-4 font-bold t-rounded bg-twitter opacity-50">Post</button>
+        <Button opacity="0.5">Post</Button>
       </div>
     </section>
   )
