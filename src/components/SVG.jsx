@@ -23,6 +23,7 @@ import { ReactComponent as Emoji } from '../svg/emoji.svg';
 import { ReactComponent as Location } from '../svg/location.svg';
 import { ReactComponent as Poll } from '../svg/poll.svg';
 import { ReactComponent as Schedule } from '../svg/schedule.svg';
+import { ReactComponent as Search } from '../svg/search.svg';
 
 const svg = {
   'X': styles => <X style={{...styles}} />,
@@ -50,6 +51,7 @@ const svg = {
   'Location': styles => <Location style={{...styles}} />,
   'Poll': styles => <Poll style={{...styles}} />,
   'Schedule': styles => <Schedule style={{...styles}} />,
+  'Search': styles => <Search style={{...styles}} />,
 }
 
 const SVG = ({ name, w='26.25px', h='26.25px', color='#E7E9EA' }) => {
