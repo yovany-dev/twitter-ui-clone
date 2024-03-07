@@ -1,7 +1,7 @@
 import { Head } from './Head';
 import { NewPost } from './NewPost';
 import { Content } from './Content';
-import { Aside } from './Aside';
+import { Aside } from './Aside/Aside';
 
 const Main = () => {
   return (
