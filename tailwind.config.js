@@ -14,7 +14,8 @@ module.exports = {
         'dark-gray': 'rgb(113, 118, 123)',
         'very-dark-gray': 'rgb(47, 51, 54)',
         'black-alpha': 'rgba(0,0,0, 0.7)',
-        'aside': 'rgb(32, 35, 39)',
+        'aside-head': 'rgb(32, 35, 39)',
+        'aside': 'rgb(22, 24, 28)',
       }
     },
     screens: {
