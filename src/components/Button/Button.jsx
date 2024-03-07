@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Button = ({ children, height='36px', color='#fff', bg='#1d9bf0' }) => {
+const Button = ({ children, height='36px', color='#fff', bg='#1d9bf0', opacity='1' }) => {
   const style = {
     height: height,
     color: color,
-    background: bg
+    background: bg,
+    opacity: opacity,
   }
 
   return (
