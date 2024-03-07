@@ -13,7 +13,8 @@ module.exports = {
         'twitter': 'rgb(29, 155, 240)',
         'dark-gray': 'rgb(113, 118, 123)',
         'very-dark-gray': 'rgb(47, 51, 54)',
-        'black-alpha': 'rgba(0,0,0, 0.7)'
+        'black-alpha': 'rgba(0,0,0, 0.7)',
+        'aside': 'rgb(32, 35, 39)',
       }
     },
     screens: {
