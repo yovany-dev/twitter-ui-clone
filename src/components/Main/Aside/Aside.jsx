@@ -40,6 +40,8 @@ const Aside = () => {
       if (currentScroll >= 800) {
         setPosition('fixed -top-[800px]')
         setMarginTop(currentScroll - 800);
+      } else {
+        setPosition('static');
       }
     }
     lastScroll = currentScroll <= 0 ? 0 : currentScroll;
