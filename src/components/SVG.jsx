@@ -14,7 +14,7 @@ import { ReactComponent as Like } from '../svg/like.svg';
 import { ReactComponent as Retweet } from '../svg/retweet.svg';
 import { ReactComponent as Views } from '../svg/views.svg';
 import { ReactComponent as Share2 } from '../svg/share2.svg';
-import { ReactComponent as List } from '../svg/list.svg';
+import { ReactComponent as Lists } from '../svg/lists.svg';
 import { ReactComponent as Profile } from '../svg/profile.svg';
 import { ReactComponent as More } from '../svg/more.svg';
 import { ReactComponent as Media } from '../svg/media.svg';
@@ -24,6 +24,7 @@ import { ReactComponent as Location } from '../svg/location.svg';
 import { ReactComponent as Poll } from '../svg/poll.svg';
 import { ReactComponent as Schedule } from '../svg/schedule.svg';
 import { ReactComponent as Search } from '../svg/search.svg';
+import { ReactComponent as Premium } from '../svg/x.svg';
 
 const svg = {
   'X': styles => <X style={{...styles}} />,
@@ -42,7 +43,7 @@ const svg = {
   'Retweet': styles => <Retweet style={{...styles}} />,
   'Views': styles => <Views style={{...styles}} />,
   'Share2': styles => <Share2 style={{...styles}} />,
-  'List': styles => <List style={{...styles}} />,
+  'Lists': styles => <Lists style={{...styles}} />,
   'Profile': styles => <Profile style={{...styles}} />,
   'More': styles => <More style={{...styles}} />,
   'Media': styles => <Media style={{...styles}} />,
@@ -52,6 +53,7 @@ const svg = {
   'Poll': styles => <Poll style={{...styles}} />,
   'Schedule': styles => <Schedule style={{...styles}} />,
   'Search': styles => <Search style={{...styles}} />,
+  'Premium': styles => <Premium style={{...styles}} />,
 }
 
 const SVG = ({ name, w='26.25px', h='26.25px', color='#E7E9EA' }) => {
