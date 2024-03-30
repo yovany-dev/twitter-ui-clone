@@ -3,10 +3,14 @@ import { useResize } from '../../hooks/useResize/useResize';
 
 const Nav = () => {
   const resize = useResize(500);
+  const resize1500 = useResize(1500);
 
   const svgs = ['Home', 'Explore', 'Notifications', 'Messages'];
   if (resize) {
     svgs.push('Lists', 'Premium', 'Profile', 'More');
+  }
+  if (resize1500) {
+    svgs.splice(5, 0, 'Communities')
   }
 
   return (
