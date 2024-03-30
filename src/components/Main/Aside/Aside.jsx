@@ -4,48 +4,37 @@ import { Trends } from "./Trends";
 import { Follow } from "./Follow";
 import { Footer } from "./Footer";
 import { useState, useEffect, useRef } from "react";
+import { useScroll } from "../../../hooks/useScroll/useScroll";
 
 const Aside = () => {
-  const [scrollY, setScrollY] = useState(0);
+  const aside = useRef(null);
+  const scroll = useScroll();
   const [position, setPosition] = useState('static');
   const [marginTop, setMarginTop] = useState(0);
-  const scrollUP = useRef(false);
-  const aside = useRef(null);
 
   useEffect(() => {
     if (aside.current) {
       const rect = aside.current.getBoundingClientRect();
       const top = rect.top;
 
-      if (top >= 0 && scrollUP.current) {
-        setPosition('fixed top-0');
-      }
-    }
-  }, [scrollY]);
-
-  let lastScroll = window.scrollY;
-  window.onscroll = function (){
-    let currentScroll = window.scrollY;
-    setScrollY(currentScroll);
-
-    if (currentScroll < lastScroll) {
-      scrollUP.current = true;
-      if (currentScroll > 0 && position !== 'fixed top-0') {
-        setPosition('static');
-      }
-      if (position === 'fixed top-0') {
-        setMarginTop(currentScroll);
-      }
-    } else {
-      if (currentScroll >= 650) {
-        setPosition('fixed -top-[650px]')
-        setMarginTop(currentScroll - 650);
+      if (scroll.scrollUP) {
+        // scroll up
+        if (top >= 0) {
+          setPosition('fixed top-0');
+          setMarginTop(scroll.scrollY);
+          return;
+        }
       } else {
-        setPosition('static');
+        // scroll down
+        if (top <= -650) {
+          setPosition('fixed -top-[650px]');
+          setMarginTop(scroll.scrollY - 650);
+          return;
+        }
       }
+      setPosition('static');
     }
-    lastScroll = currentScroll <= 0 ? 0 : currentScroll;
-  }
+  }, [scroll.scrollY]);
 
   return (
     <aside className='hidden 988:block 988:w-[290px] 1078:w-[350px] 988:mr-[10px] 1500:mr-[70px]'>
