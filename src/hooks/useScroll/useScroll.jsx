@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 const useScroll = () => {
-  const [scroll, setScroll] = useState(0);
+  const [scrollY, setScrollY] = useState(0);
   const scrollUP = useRef(null);
 
   useEffect(() => {
@@ -14,14 +14,14 @@ const useScroll = () => {
         scrollUP.current = false;
       }
       lastScroll = currentScroll <= 0 ? 0 : currentScroll;
-      setScroll(window.scrollY);
+      setScrollY(window.scrollY);
     }
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return {
-    scroll,
+    scrollY,
     scrollUP: scrollUP.current,
   };
 }
