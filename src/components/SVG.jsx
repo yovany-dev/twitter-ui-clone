@@ -25,6 +25,7 @@ import { ReactComponent as Poll } from '../svg/poll.svg';
 import { ReactComponent as Schedule } from '../svg/schedule.svg';
 import { ReactComponent as Search } from '../svg/search.svg';
 import { ReactComponent as Premium } from '../svg/x.svg';
+import { ReactComponent as Communities } from '../svg/communities.svg';
 
 const svg = {
   'X': styles => <X style={{...styles}} />,
@@ -54,6 +55,7 @@ const svg = {
   'Schedule': styles => <Schedule style={{...styles}} />,
   'Search': styles => <Search style={{...styles}} />,
   'Premium': styles => <Premium style={{...styles}} />,
+  'Communities': styles => <Communities style={{...styles}} />,
 }
 
 const SVG = ({ name, w='26.25px', h='26.25px', color='#E7E9EA' }) => {
