@@ -6,11 +6,11 @@ const Nav = () => {
 
   const svgs = ['Home', 'Explore', 'Notifications', 'Messages'];
   if (resize) {
-    svgs.push('List', 'X', 'Profile', 'More');
+    svgs.push('Lists', 'Premium', 'Profile', 'More');
   }
 
   return (
-    <div className='500:w-full h-full 500:h-auto 500:mt-0.5 500:mb-1 flex 500:flex-col items-center justify-around'>
+    <div className='500:w-full h-full 500:h-auto 500:mt-0.5 500:mb-1 1265:pl-3 flex 500:flex-col items-center 1265:items-start justify-around'>
       <Li svgs={svgs} />
     </div>
   )
