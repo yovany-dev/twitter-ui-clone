@@ -14,7 +14,7 @@ const Header = ({ scroll }) => {
     <header className='500:grow 500:shrink-0'>
       <Head scroll={scroll} />
       <section className={className}>
-        <div className='500:w-[68px] 600:w-[88px] 988:w-[68px] 1008:w-[88px] 1265:w-[275px] h-full 500:h-auto'>
+        <div className='500:w-[68px] 600:w-[88px] 988:w-[68px] 1008:w-[88px] 1265:w-[275px] 1500:ml-[60px] h-full 500:h-auto'>
           <nav className='h-full 500:fixed top-0'>
             <ul className='500:w-[68px] 600:w-[88px] 988:w-[68px] 1008:w-[88px] 1265:w-[275px] h-full list-none 500:px-1 600:px-2 988:px-1 1008:px-2 500:overflow-y-auto 500:flex flex-col justify-between'>
               <section className='h-full 500:h-auto 500:flex flex-col items-center 1265:items-start'>

@@ -48,7 +48,7 @@ const Aside = () => {
   }
 
   return (
-    <aside className='hidden 988:block 988:w-[290px] 1078:w-[350px] 988:mr-[10px]'>
+    <aside className='hidden 988:block 988:w-[290px] 1078:w-[350px] 988:mr-[10px] 1500:mr-[70px]'>
       <div style={{marginTop: marginTop}}></div>
       <div ref={aside} className={'988:w-[290px] 1078:w-[350px] flex flex-col gap-4 ' + position}>
         <div className="mt-[51px]"></div>
