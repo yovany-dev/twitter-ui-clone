@@ -1,0 +1,74 @@
+[
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_x96.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "Flujo de trabajo Git y GitHub en empresas grandes",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GGtFWKvXkAAyN6I?format=jpg",
+        "description": "Guía visual simplificada del flujo de trabajo de Git y GitHub en empresas. Se ve como viaja el código desde que se crea hasta que pasa por integración continua y eso va a un registro de imagenes que se desplega usando un proceso de despliegue continuo."
+      }
+    },
+    "data": {
+      "comment": "7",
+      "retweet": "213",
+      "like": "1.3K",
+      "views": "48K"
+    },
+    "date": "9h"
+  },
+  {
+    "profile": {
+      "name": "Elon Musk",
+      "username": "elonmusk",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_bigger.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "If you're lucky, history remembers you as a salad",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GGmh2G9WkAAzi8v?format=jpg",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "11K",
+      "retweet": "36K",
+      "like": "392K",
+      "views": "38M"
+    },
+    "date": "Feb 18"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_x96.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "¡ADOBE NO comprará FIGMA finalmente! La compra estaba valorada en 20 mil millones de $. Figma era uno de los mayores competidores de Adobe. Y tanto UK como la EU no veían clara la compra. Uno de los noticiones del mundo de UX y...",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GBoiszDXQAAbi0F?format=jpg",
+        "description": "Adobe, como un Pacman, comiendose el logo de Figma."
+      }
+    },
+    "data": {
+      "comment": "28",
+      "retweet": "115",
+      "like": "758",
+      "views": "92K"
+    },
+    "date": "Dec 18"
+  }
+]
