@@ -6,12 +6,12 @@ Clon de la interfaz de Twitter (X) desarrollado con React y Tailwind. Responsivo
 ## Vista previa en vivo 🚀
 Puedes verlo [aquí](https://yovany-dev.github.io/twitter-ui-clone/)
 
-## Características 🔧🔨
+## Características 💡
 - Diseño responsivo
 - Componentes reutilizables
 - HTML semántico
 
-## Desarrollo
+## Desarrollo 🔧🔨
 - Cree un archivo json y almacene los datos de cada usuario incluyendo los tweets
 - Hice uso del método fetch para las peticiones HTTP
 - Utilice la dependencia gh-pages para el despliegue
