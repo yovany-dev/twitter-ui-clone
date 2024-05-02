@@ -1,4 +1,4 @@
-![Twitter UI Clone](https://github.com/yovany-dev/twitter-ui-clone/tree/main/src/assets/images/twitter-ui-clone.png)
+![Twitter UI Clone](https://github.com/yovany-dev/twitter-ui-clone/blob/main/src/assets/images/twitter-ui-clone.png)
 Clon de la interfaz de Twitter (X) desarrollado con React y Tailwind. Responsivo a diferentes resoluciones de pantalla. Este proyecto fue iniciado con Create React App.
 
 ### `React` `JavaScript` `Tailwind`
