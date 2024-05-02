@@ -1,9 +1,10 @@
 import { SVG } from "../SVG";
+import { Photo } from "../Photo/Photo";
 
 const Profile = () => {
   return (
     <div className="1265:w-full 1265:flex items-center gap-3">
-      <img className="w-10 h-10 t-rounded" src="https://pbs.twimg.com/profile_images/1736916533920604160/YuNnhwJ1_bigger.jpg" alt="Yovany Morales" />
+      <Photo />
       <section className="hidden 1265:grow 1265:flex items-center justify-between">
         <div>
           <h2 className="t-text-m font-bold leading-5">Yovany Morales</h2>

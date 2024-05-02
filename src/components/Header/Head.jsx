@@ -1,4 +1,5 @@
 import { SVG } from "../SVG";
+import { Photo } from "../Photo/Photo";
 
 const Head = ({ scrollDown }) => {
   const translateY = scrollDown ? '-translate-y-[105px]' : '';
@@ -6,7 +7,7 @@ const Head = ({ scrollDown }) => {
   return (
     <section className={'500:hidden w-full flex flex-col gap-5 fixed top-0 left-0 z-20 border-b border-very-dark-gray bg-black-alpha backdrop-blur-md transition-transform duration-500 ' + translateY}>
       <section className="pt-2 px-4 flex justify-between items-center">
-        <img className="w-8 t-rounded" src="https://pbs.twimg.com/profile_images/1736916533920604160/YuNnhwJ1_bigger.jpg" alt="avatar user" />
+        <Photo />
         <SVG name={'X'} />
         <SVG name={'Setting'} h="20px" color="#eff3f4" />
       </section>
