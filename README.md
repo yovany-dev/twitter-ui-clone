@@ -14,6 +14,7 @@ Puedes verlo [aquí](https://yovany-dev.github.io/twitter-ui-clone/)
 ## Desarrollo 🔧🔨
 - Cree un archivo json y almacene los datos de cada usuario incluyendo los tweets
 - Hice uso del método fetch para las peticiones HTTP
+- Utilice el método `setTimeout()` para simular la carga de inicio
 - Utilice la dependencia gh-pages para el despliegue
 
 ## Instalación 💻
