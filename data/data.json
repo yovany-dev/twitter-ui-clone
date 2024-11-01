@@ -4,7 +4,175 @@
       "name": "Miguel Angel Duran",
       "username": "midudev",
       "avatar": {
-        "url": "https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_x96.jpg",
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "El terror de las Pull Requests",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GbP3jzUXsAA30k5?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "8",
+      "retweet": "41",
+      "like": "396",
+      "views": "19K"
+    },
+    "date": "Oct 31"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "¡En la JSConf México 2024! Viva JavaScript, carajo.",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GbO7r0TX0AA-w9O?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "13",
+      "retweet": "19",
+      "like": "386",
+      "views": "11K"
+    },
+    "date": "Oct 31"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "Cómo nos ven a los programadores",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GbKQJ3ZXUAAWe41?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "30",
+      "retweet": "461",
+      "like": "3.2K",
+      "views": "120K"
+    },
+    "date": "Oct 30"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "Con el gran DotCSV en la GitHub Universe",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GbEyOFDbYAAfBpG?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "7",
+      "retweet": "10",
+      "like": "561",
+      "views": "19K"
+    },
+    "date": "Oct 29"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "Este documento oficial de Meta te explica cómo pasar sus entrevistas técnicas como programador. Te dejo el PDF en el primer comentario.",
+      "image": {
+        "url": "https://pbs.twimg.com/media/GbEOStuWAAAtmRL?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "9",
+      "retweet": "226",
+      "like": "1.7k",
+      "views": "78K"
+    },
+    "date": "Oct 29"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "Gracias a la organización de la @CityJSMedellin por un evento tan increíble. Les deseo lo mejor en las JSConf del año que viene y ojalá pueda volver por aquí. ❤️",
+      "image": {
+        "url": "https://pbs.twimg.com/media/Ga5tco8XUAAaovK?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "1",
+      "retweet": "2",
+      "like": "99",
+      "views": "6.6K"
+    },
+    "date": "Oct 27"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+        "description": "Avatar User"
+      }
+    },
+    "content": {
+      "text": "¿No entiendes los JOIN en SQL? ¡Eso se acabó! Esta guía visual te los explica con ejemplos de código ↓",
+      "image": {
+        "url": "https://pbs.twimg.com/media/Ga0y41RbAAAMjXT?format=jpg&name=small",
+        "description": "Image"
+      }
+    },
+    "data": {
+      "comment": "43",
+      "retweet": "1.9k",
+      "like": "12k",
+      "views": "2.2m"
+    },
+    "date": "Oct 26"
+  },
+  {
+    "profile": {
+      "name": "Miguel Angel Duran",
+      "username": "midudev",
+      "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
         "description": "Avatar User"
       }
     },
@@ -21,7 +189,7 @@
       "like": "1.3K",
       "views": "48K"
     },
-    "date": "9h"
+    "date": "Feb 20"
   },
   {
     "profile": {
@@ -52,7 +220,7 @@
       "name": "Miguel Angel Duran",
       "username": "midudev",
       "avatar": {
-        "url": "https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_x96.jpg",
+        "url": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
         "description": "Avatar User"
       }
     },
